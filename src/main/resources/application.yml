@@ -47,6 +47,9 @@ aws:
     bucket-name: ${AWS_S3_BUCKET}
   region: ${AWS_REGION}
 
-
+logging:
+  level:
+    org.springframework.security.oauth2: DEBUG
+    org.springframework.web.client.RestTemplate: DEBUG
 
 
